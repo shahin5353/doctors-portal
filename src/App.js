@@ -45,7 +45,7 @@ function App() {
             </div>
             </div>
            </Route>
-           <Route exact path="/doctor/dashboard">
+           <Route path="/doctor/dashboard">
            <div className="container-fluid bg-light">
             <div className="row">
             <Sidebar/>
@@ -53,7 +53,7 @@ function App() {
             </div>
             </div>
            </Route>
-           <Route exact path="/doctor/appointment">
+           <Route path="/doctor/appointment">
            <div className="container-fluid bg-light">
             <div className="row">
             <Sidebar/>
@@ -62,7 +62,7 @@ function App() {
             </div>
             </div>
            </Route>
-           <Route exact path="/doctor/patients">
+           <Route path="/doctor/patients">
            <div className="container-fluid bg-light">
             <div className="row">
             <Sidebar/>
@@ -70,7 +70,7 @@ function App() {
             </div>
             </div>
            </Route>
-           <Route exact path="/doctor/prescription">
+           <Route path="/doctor/prescription">
            <div className="container-fluid bg-light">
             <div className="row">
             <Sidebar/>
