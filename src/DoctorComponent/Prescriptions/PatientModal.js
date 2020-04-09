@@ -14,7 +14,7 @@ const PatientModal = (props) => {
           .then(data => {
             alert("Patient Added Successfully")
             e.target.reset();
-            document.location.reload();
+            window.location.reload();
           })      
     
   };

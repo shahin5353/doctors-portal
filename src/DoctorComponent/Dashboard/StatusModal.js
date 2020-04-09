@@ -14,7 +14,7 @@ const StatusModal = (props) => {
           .then(res => res.json())
           .then(data => {
             alert("Update Successful")
-            document.location.reload();
+            window.location.reload();
 
           })  
 

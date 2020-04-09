@@ -14,7 +14,7 @@ const PrescriptionFormModal = (props) => {
           .then(res => res.json())
           .then(data => {
             alert("update success")
-            document.location.reload();
+            window.location.reload();
           })  
 
     }

@@ -14,7 +14,7 @@ const ModalForm = (props) => {
           .then(res => res.json())
           .then(data => {
             alert('You have successfully placed your appointment\n\nPlease Note Your Appointment ID : '+data._id)
-            document.location.reload();
+            window.location.reload();
           })      
     
   };
